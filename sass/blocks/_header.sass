@@ -1,0 +1,28 @@
+.header
+  background-color: $primary
+  &__wrapper
+    display: flex
+    width: 650px
+    padding: 40px 0
+    margin: auto
+
+  .nav
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 100%
+    &__link
+      display: inline-block
+      text-decoration: none
+      color: $text-color
+      font-weight: 500
+      font-size: 16px
+      line-height: 100%
+      margin-right: 40px
+      position: relative
+      padding-bottom: 8px
+    &__link:hover 
+      border-bottom: 2px dashed $accent
+      transition: .3 ease
+    &__link:last-child
+      margin-right: 0
